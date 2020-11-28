@@ -259,10 +259,10 @@ li.active:hover > a{
     display: inline;
   }
   .main-img{
-    height: 300px;
+    height: 200px !important;
   }
-  #logo{
-    color: red;
+  .fr{
+    margin-left: 50%;
   }
 }
 
