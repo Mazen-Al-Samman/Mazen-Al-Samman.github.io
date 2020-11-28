@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
 .main-img{
   background-image: url(../img/taekwando.jpg); 
   height: 600px; 
@@ -12,9 +13,9 @@
     font-family: 'Lobster';
     font-size: 25px;
 }
-.font-Pacifico{
-    font-family: 'Pacifico';
-    font-size: 35px;
+.font-Crimson{
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 1px;
 }
 .color-yellow {
     background-color: rgba(255, 195, 20, 1);
