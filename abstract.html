@@ -13,18 +13,17 @@
     <title>Taekwondo</title>
 </head>
 <body>
-    <div class="main-img">
+    <div class="main-img" data-aos="fade-down">
         <!-- Start NavBar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand p-1 logo" href="index.html">
-                LOWELL TAEKWONDO
+            <a class="navbar-brand p-1" href="index.html">
+                <img src="img/logo.png" class="logo" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler fr" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div style="margin-left: 15%;"></div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav font-lobster">
+                <ul class="navbar-nav font-lobster text-center">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
@@ -52,7 +51,7 @@
     <!-- End NavBar -->
 
     <!-- Start Down Button -->
-        <div class="container d-flex justify-content-center" style="margin-top: -30px;">
+        <div class="container d-flex justify-content-center button" style="margin-top: -30px;">
             <a style="outline: none;" id="button">
                <img src="https://img.icons8.com/wired/64/000000/down-squared.png"/>
             </a>
@@ -60,7 +59,7 @@
     <!-- End Down Button -->
 
     <!-- Start AboutUS Section -->
-    <div class="container  mt-5 mb-5" id="info">
+    <div class="container  mt-5 mb-5" data-aos="fade-right" id="info">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
                 <img class="img-fluid" style="width: 400px;" src="img/about-us.png" alt="About us Image">
@@ -116,13 +115,14 @@
         </div>
     </footer>
 </body>
-    <script>
-        $(document).ready(function(){
-            $("#button").on('click',function() {
-                $('html, body').animate({
-                'scrollTop' : $("#info").position().top
+<script>
+    $(document).ready(function(){
+        $("#button").on('click',function() {
+            $('html, body').animate({
+            'scrollTop' : $("#info").position().top
+            });
         });
     });
-        });
-    </script>
+    AOS.init();
+</script>
 </html>

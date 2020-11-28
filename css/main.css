@@ -65,17 +65,18 @@
   font-weight: bold; 
   font-size: 35px;
 }
+.fr{
+  float: right !important;
+  clear: both;
+}
 .letters{
   letter-spacing: 1px;
 }
 .logo{
-  background-color: orange;
-  font-size: 25px;
-  font-family: roboto;
-  color: #26272b !important;
-  font-weight: bold;
-  letter-spacing: 2px;
-  border-radius: 2%;
+  background-color: #f2f2f2;
+  width: 60px;
+  height: auto;
+  border-radius: 10px;
 }
 body {
     background-color: #f2f2f2;
@@ -237,6 +238,12 @@ body {
 .social-links{
   display: none;
 }
+li.active:hover > a{
+  color: orange !important;
+}
+.button:hover{
+  transform: scale(1.2,1.2);
+}
 @media (max-width:767px)
 {
   .social-icons li.title
@@ -253,6 +260,9 @@ body {
   }
   .main-img{
     height: 300px;
+  }
+  #logo{
+    color: red;
   }
 }
 
