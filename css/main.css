@@ -77,7 +77,7 @@
   background-color: #f2f2f2;
   width: 60px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 150px;
 }
 body {
     background-color: #f2f2f2;
@@ -266,4 +266,13 @@ li.active:hover > a{
     margin-left: 50%;
   }
 }
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
 
