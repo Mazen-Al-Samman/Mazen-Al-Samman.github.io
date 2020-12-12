@@ -81,6 +81,10 @@
 }
 body {
     background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+.bdr {
+  border-right: 1px solid lightgray ;
 }
 .site-footer
 {
@@ -264,6 +268,10 @@ li.active:hover > a{
   }
   .fr{
     margin-left: 50%;
+  }
+  .bdr {
+    border: none;
+    margin-bottom: 25px;
   }
 }
 .saturate { filter: saturate(3); }
