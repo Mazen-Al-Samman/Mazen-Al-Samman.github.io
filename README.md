@@ -1,2 +1,2 @@
-# LOWELL-TAEKWONDO
-Website for LOWELL Taekwondo .
+# Portfolio
+This is my First portfolio for me .
