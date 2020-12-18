@@ -1,96 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>MHD Mazen Al Samman</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<style>
-		.main-content {
-			text-align: center ;
-		}
-		.my-img {
-			width: 300px ;
-			height: 300px ;
-			border-radius: 75px ;
-			background-image: url('img/personal-img.png');
-			background-size: cover ;
-			background-repeat: no-repeat;
-			margin-left: auto ;
-			margin-right: auto ;
-		}
-		.my-img:hover {
-			transform: scale(1.1 , 1.1);
-		}
-		.text-data h1 {
-			color: #D62828 ;
-			font-family: 'Acme' ;
-			letter-spacing: 1px ;
-		}
-		.text-data h3 {
-			font-family: 'Raleway' ;
-			margin-top: -15px ;
-			letter-spacing: 2px ;
-			opacity: 0.7 ;
-		}
-		.text-data p {
-			width: 50% ;
-			margin-left: auto ;
-			margin-right: auto ;
-			font-size: 20px ;
-			margin-top: -10px ;
-			font-family: 'Josefin Sans'
-		}
-		@media only screen and (max-width: 600px) {
-			.text-data p {
-				width: 75% ;
-			}
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Taekwondo</title>
 </head>
 <body>
-	<!-- Start NavBar -->
-	<nav>
-		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="edu.html">Education</a></li>
-			<li><a href="skills.html">Skills</a></li>
-			<li><a href="exp.html">Experience</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-		<!-- Start SVG -->
-		<section class="nav-svg">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#003049" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,80C640,75,800,85,960,85.3C1120,85,1280,75,1360,69.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-		</section>
-		<!-- End SVG -->
-	</nav>
-	<!-- End NavBar -->
+    <div class="main-img" data-aos="fade-down">
+        <!-- Start NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand p-1" href="index.html">
+                <img src="img/logo.png" class="logo p-2" alt="logo">
+            </a>
+            <button class="navbar-toggler fr" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav font-lobster text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="abstract.html">ِAbstract<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="chief.html">Chief Master<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="social-links">
+                        <a href=""><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
+                        <a href="https://www.instagram.com/lowelltaekwondo/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="float-right">
+                <a href="" class="social"><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
+                <a href="https://www.instagram.com/lowelltaekwondo/" class="social"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+            </div>
+        </nav>
+        <p class="text-center font-lobster">HOME</p>
+    </div>
+    <!-- End NavBar -->
 
-	<!-- Start Information -->
-	<section class="main-content">
-		<div class="my-img"></div>
-		<div class="text-data">
-			<h1>Mohammad Mazen Al Samman</h1>
-			<h3>&#91; SYRIAN DEVELOPER &#93;</h3>
-			<hr class="hr-line">
-			<p>MHD Mazen Al Samman , Syrian - 19/9/1999<br><br>
-			Participating in JCPC for a long time and training students grant me a
-			very well experience in Java programming.<br><br> In addition to building the
-			concept of programming, object-oriented programming (OOP), that
-			allows me to learn any other programming language, especially
-			OOP-based, easily.</p>
-		</div>
-	</section>
-	<!-- End Information -->
+    <!-- Start Down Button -->
+        <div class="container d-flex justify-content-center button" style="margin-top: -30px;">
+            <a style="outline: none;" id="button">
+               <img src="https://img.icons8.com/wired/64/000000/down-squared.png"/>
+            </a>
+        </div>
+    <!-- End Down Button -->
 
-	<!-- Start Footer -->
-	<footer class="footer">
-		<h3>Follow me on</h3>
-		<a target="_blank" href="https://www.facebook.com/mazen.alsmman"><img class="icon" src="https://img.icons8.com/nolan/64/facebook-new.png"/></a>
-		<a target="_blank" href="https://www.instagram.com/mohammad.mazen.sy/"><img class="icon" src="https://img.icons8.com/nolan/64/instagram-new.png"/></a>
-		<a target="_blank" href="https://www.linkedin.com/in/mhd-mazen-al-samman-03981119a/"><img class="icon" src="https://img.icons8.com/nolan/64/linkedin.png"/></a>
-		<a target="_blank" href="https://github.com/Mazen-Al-Samman"><img class="icon" src="https://img.icons8.com/nolan/64/github.png"/></a>
-		<p>All Rights Reserved &copy; to Mhd Mazen</p>
-	</footer>
-	<!-- End Footer -->
+    <!-- Start InfoSection -->
+    <div class="container-fluid" data-aos="fade-left" id="info">
+        <div class="container mt-3">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-5 color-yellow">
+                    <img style="width: 100%;" src="img/taekwondo.webp" alt="Woman Taekwondo">
+                </div>
+                <div class="col-md-5 text-center color-yellow">
+                    <div class="row d-flex justify-content-center mt-5">
+                        <div class="col-md-2">
+                            <h2 style="font-size: 60px; color: orangered;">A+</h2>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            AFTER SCHOOL MARTIAL ARTS
+                            <br>
+                        </div>
+                    </div>
+                    <p style="font-size: 30px;" class="font-Oswald">BENEFITS FOR KIDS</p>
+                    <hr class="w-75">
+                    <p class="font-lobster mb-3 mt-3 text-danger">Self-Defense, <br> Respect, <br> self-Discipline, <br> Confidence, <br> Leadership, <br> Benefits for kids and adoult</p>
+                </div>
+                <div class="col-md-10 text-center font-Oswald text-light p-3" style="background-color :rgb(34, 34, 34); letter-spacing: 1px;">
+                    <p>
+                        You have now taken what could be the first step towards a positive future. Do you want to compete, learn self-defense or just get in shape? We can help you get results. As a bonus, you will meet and make new friends. At Lowell Taekwondo, we teach in a beginner friendly environment, as well as keep things safe and none intimidating. We are dedicated towards self-improvement. Whether mental or physical, we are here to help overcome those obstacles. The main goal in Taekwondo practice is to achieve total mind and body control. At our school, we use discipline as the main tool to reach this goal. Without discipline, there is no Taekwondo. With our qualified instructors and a Master who has all the leadership credentials required, we are confident that we will help you reach your goal. Lowell Taekwondo is a USTU and WTF member. This allows proper certification upon receiving the 1st Dan black belt. In addition, certified students are eligible for the Olympics, if indeed this is their goal. Lowell Taekwondo is also the best place for kids. Bring your son or daughter for a free class, then judge for yourself.
+                        <br><br>
+                        Taekwondo was originally aimed towards self defense and the preservation of peace. Today, it has become much more than that, especially in the United States. Although some still seek it for self defense purposes, others are looking to become better fit, some enjoy competition and therefore, aim their sights at the Olympic Gold Medal. Taekwondo became an official sport of the Olympics in 2000. And, some just want to have fun and socialize while learning something new. Whatever the reason for wanting to train in Taekwondo, you will be surrounded by people who share the same enthusiasm as you. With our proven methods of instructing, you will learn the art of self defense in a safe, non-intimidating and fun atmosphere. We also provide a wide range of exciting benefits for students of all ages.
+                        <br><br>
+                        • Improved concentration for more efficient work and study habits
+                        <br>
+                        • Stress reduction and increased levels of relaxation for a longer, healthier sleep.
+                        <br>
+                        • The peace of mind that comes from knowing that you are able to protect yourself and your family.
+                        <br>                        
+                        • Increased confidence and self discipline to develop a positive attitude.
+                        <br>
+                        • Improving reflexes and coordination increases physical performance.
+                        <br>
+                        • Increased strength and stamina to make you feel great all day.
+                        <br>
+                        • Increased flexibility and weight control for better overall fitness.
+                        <br>
+                        • Great cardiovascular workout keeps you in good shape.
+                        <br><br>
+                        Fifth tab content
+                        <br>
+                        Sixth tab content
+                    </p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- End InfoSection -->
 
+
+    <!-- Start Logo -->
+    <div data-aos="fade-lefts">
+        <svg class="mt-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
+            <path style="fill:orange;" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+        </svg>
+        <div class="d-flex upper-logo justify-content-center">
+            <div class="mt-4">
+                <p class="font-roboto">LOWELL</p>
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-rights">
+        <div class="d-flex lower-logo justify-content-center">
+            <div class="mt-4">
+                <p class="font-roboto">TAEKWONDO</p>
+            </div>
+        </div>
+        <svg class="scnd-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
+            <path style="fill:rgb(34, 34, 34)" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+        </svg>
+    </div>
+    <!-- End Logo -->
+
+    <!-- Start About Teach -->
+    <div data-aos="fade-left">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
+            <path style="fill:orange;" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+        </svg>
+        <div class="container-fluid" style="margin-top:-20px; background-color:orange">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-5 text-center bg-light">
+                        <p class="mt-5 text-warning font-Oswald" style="font-size: 30px;"><b>PROGRAMS</b></p>
+                        <p class="font-roboto mb-3 mt-4">
+                            At lowell Taekwando we will teach our students<br>to take a range of practices and techniques<br>to raise our students well-equipped for adulthood<br>and maintaining a happy healthy life.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img style="width: 100%;" src="img/taekGirl.jpg" alt="Woman Taekwondo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg class="scnd-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
+            <path style="fill:orange" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+        </svg>
+    </div>
+    <!-- End About Teach -->
+
+    <!-- Site footer -->
+    <footer class="site-footer mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        At Lowell Taekwondo It is our mission to make sure every child is successful, while developing at their own pace. We tailor our program to meet the individual needs of each child according to their personality, age and skill level. (We teach them .We work together with parents to achieve this goal, and have consistent, open communication with all of our families. We welcome and encourage you to drop by anytime to observe what we do and how we do it.
+                    </p>
+                </div>
+  
+                <div class="col-xs-6 col-md-3">
+                    <h6>Pages</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="abstract.html">ABSTRACT</a></li>
+                        <li><a href="classes.html">CLASSES</a></li>
+                        <li><a href="chief.html">CHIEF MASTER</a></li>
+                    </ul>
+                </div>
+  
+                <div class="col-xs-6 col-md-3">
+                    <h6>Scial Media</h6>
+                    <ul class="footer-links">
+                        <li><a href="">SnapChat</a></li>
+                        <li><a href="https://www.instagram.com/lowelltaekwondo/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                    <a href="#">LAWELL</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+  </footer>
 </body>
+<script>
+    $(document).ready(function(){
+        $("#button").on('click',function() {
+            $('html, body').animate({
+            'scrollTop' : $("#info").position().top
+            });
+        });
+    });
+    AOS.init();
+</script>
 </html>

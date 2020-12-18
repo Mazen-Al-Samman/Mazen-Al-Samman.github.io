@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Taekwondo</title>
+</head>
+<body>
+    <div class="main-img" data-aos="fade-down">
+        <!-- Start NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand p-1" href="index.html">
+                <img src="img/logo.png" class="logo p-2" alt="logo">
+            </a>
+            <button class="navbar-toggler fr" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav font-lobster text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="abstract.html">ِAbstract<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="chief.html">Chief Master<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="social-links">
+                        <a href=""><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
+                        <a href="https://www.instagram.com/lowelltaekwondo/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="float-right">
+                <a href="" class="social"><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
+                <a href="https://www.instagram.com/lowelltaekwondo/" class="social"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+            </div>
+        </nav>
+        <p class="text-center font-lobster">ABSTRACT</p>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- Start Down Button -->
+        <div class="container d-flex justify-content-center button" style="margin-top: -30px;">
+            <a style="outline: none;" id="button">
+               <img src="https://img.icons8.com/wired/64/000000/down-squared.png"/>
+            </a>
+        </div>
+    <!-- End Down Button -->
+
+    <!-- Start AboutUS Section -->
+    <div class="container  mt-5 mb-5" data-aos="fade-right" id="info">
+        <div class="row text-center">
+            <div class="col-md-12 mb-5">
+                <img class="img-fluid" style="width: 400px;" src="img/about-us.png" alt="About us Image">
+            </div>
+            <div class="col-md-12">
+                <p class="text-dark font-roboto letters">
+                    At Lowell Taekwondo It is our mission to make sure every child is successful, while developing at their own pace. We tailor our program to meet the individual needs of each child according to their personality, age and skill level. (We teach them .We work together with parents to achieve this goal, and have consistent, open communication with all of our families. We welcome and encourage you to drop by anytime to observe what we do and how we do it.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End AboutUS Section -->
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        At Lowell Taekwondo It is our mission to make sure every child is successful, while developing at their own pace. We tailor our program to meet the individual needs of each child according to their personality, age and skill level. (We teach them .We work together with parents to achieve this goal, and have consistent, open communication with all of our families. We welcome and encourage you to drop by anytime to observe what we do and how we do it.
+                    </p>
+                </div>
+  
+                <div class="col-xs-6 col-md-3">
+                    <h6>Pages</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="abstract.html">ABSTRACT</a></li>
+                        <li><a href="classes.html">CLASSES</a></li>
+                        <li><a href="chief.html">CHIEF MASTER</a></li>
+                    </ul>
+                </div>
+  
+                <div class="col-xs-6 col-md-3">
+                    <h6>Scial Media</h6>
+                    <ul class="footer-links">
+                        <li><a href="">SnapChat</a></li>
+                        <li><a href="https://www.instagram.com/lowelltaekwondo/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                    <a href="#">LAWELL</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+  </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#button").on('click',function() {
+            $('html, body').animate({
+            'scrollTop' : $("#info").position().top
+            });
+        });
+    });
+    AOS.init();
+</script>
+</html>
