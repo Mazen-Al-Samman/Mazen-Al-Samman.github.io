@@ -1,217 +1,572 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Staging Template">
+    <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <title>Taekwondo</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Staging | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style type="text/css">
+        .header__menu ul li a {
+            color:black !important;
+        }
+        .project__slider__item {
+            height: 450px !important;
+        }
+
+        p{
+            font-size: 15px;
+            text-align: justify;
+        }
+        .header__logo a strong{
+        
+        font-size: 17px !important;
+        }
+    
+    </style>
 </head>
+
 <body>
-    <div class="main-img" data-aos="fade-down">
-        <!-- Start NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand p-1" href="index.html">
-                <img src="img/logo.png" class="logo p-2" alt="logo">
-            </a>
-            <button class="navbar-toggler fr" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav font-lobster text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="abstract.html">ِAbstract<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="chief.html">Chief Master<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="social-links">
-                        <a href=""><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
-                        <a href="https://www.instagram.com/lowelltaekwondo/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="float-right">
-                <a href="" class="social"><img src="https://img.icons8.com/plasticine/100/000000/snapchat.png" width="60"/></a>
-                <a href="https://www.instagram.com/lowelltaekwondo/" class="social"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-            </div>
-        </nav>
-        <p class="text-center font-lobster">HOME</p>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
     </div>
-    <!-- End NavBar -->
 
-    <!-- Start Down Button -->
-        <div class="container d-flex justify-content-center button" style="margin-top: -30px;">
-            <a style="outline: none;" id="button">
-               <img src="https://img.icons8.com/wired/64/000000/down-squared.png"/>
-            </a>
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="#"><img src="img/GermanyFlag.jpg" width="60" height="50"></a>
         </div>
-    <!-- End Down Button -->
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__widget">
+            
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
-    <!-- Start InfoSection -->
-    <div class="container-fluid" data-aos="fade-left" id="info">
-        <div class="container mt-3">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-5 color-yellow">
-                    <img style="width: 100%;" src="img/taekwondo.webp" alt="Woman Taekwondo">
+    <!-- Header Section Begin -->
+    <header class="header" style="background-color: rgba(0,0,0,0.9); height: 100px; position: relative;" dir="rtl">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4" style="top: -24px;">
+                    <div class="header__logo" style="display: inline-block;">
+                        <ul style="display: inline-block; list-style: none; color: white;  border-left: 2px solid white; padding-left:4px;: ">
+                            <li style="font-size: 15px;"><img src="img/jordanFlag.png" style="margin-bottom: 5px;" width="20" height="20"> AR</li>
+                            <li style="font-size: 15px;"><img src="img/UKFlag.png" style="margin-bottom: 5px;" width="20" height="20"> EN</li>
+                            <li style="font-size: 15px;"><img src="img/GermanyFlag.jpg" style="margin-bottom: 5px;" width="20" height="20"> GE</li>
+                            </ul>
+                        <h3 style="display: inline-block; position: relative; top: -20px;">
+                            
+                             <img src="img/ger.jpg" width="60" height="50">
+                            <a href="#" class="text-light"><strong>لاجئين - Flüchtlinge</strong></a>
+                        </h3>
+                    </div>
                 </div>
-                <div class="col-md-5 text-center color-yellow">
-                    <div class="row d-flex justify-content-center mt-5">
-                        <div class="col-md-2">
-                            <h2 style="font-size: 60px; color: orangered;">A+</h2>
+                <div class="col-lg-8">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html" style="color:white !important;">الصفحة الرئيسية</a></li>
+                            
+                                    <li><a href="./news_category.html"style="color:white !important;">الأخبار</a></li>
+                                    <li><a href="Articles_and_reports.html"style="color:white !important;">مقالات و تقارير صحفية</a></li>
+                                    <li><a href="integration.html"style="color:white !important;">اندماج اللاجئين</a></li>
+                                    <li><a href="./info_graphic.html"style="color:white !important;">انفوجرافيك</a></li>
+                                    <li><a href="./germany_lang_category.html"style="color:white !important;">اللغة الألمانية</a></li>
+                                    <li><a href="./contact.html"style="color:white !important;">اتصل بنا</a></li>
+                                    <li><a href="./about_us.html"style="color:white !important;">من نحن</a></li>
+                            
+                            <li></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+      <!-- Project Section Begin -->
+    <!-- <section class="project" style="height:100px !important;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <span></span>
+                        <h2>الأقسام</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="project__slider__item set-bg" data-setbg="img/news.jpg">
+                            <a href="news_category.html">
+                                <div class="project__slider__item__hover">
+                                    <span>المزيد</span>
+                                    <h5>الأخبار</h5>
+                                </div>
+                            </a>
                         </div>
-                        <div class="col-md-4 mt-2">
-                            AFTER SCHOOL MARTIAL ARTS
-                            <br>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project__slider__item set-bg" data-setbg="img/category2.jpg">
+                            <a href="Articles_and_reports.html">
+                                <div class="project__slider__item__hover">
+                                    <span>المزيد</span>
+                                    <h5>مقالات و تقارير صحفية</h5>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <p style="font-size: 30px;" class="font-Oswald">BENEFITS FOR KIDS</p>
-                    <hr class="w-75">
-                    <p class="font-lobster mb-3 mt-3 text-danger">Self-Defense, <br> Respect, <br> self-Discipline, <br> Confidence, <br> Leadership, <br> Benefits for kids and adoult</p>
-                </div>
-                <div class="col-md-10 text-center font-Oswald text-light p-3" style="background-color :rgb(34, 34, 34); letter-spacing: 1px;">
-                    <p>
-                        You have now taken what could be the first step towards a positive future. Do you want to compete, learn self-defense or just get in shape? We can help you get results. As a bonus, you will meet and make new friends. At Lowell Taekwondo, we teach in a beginner friendly environment, as well as keep things safe and none intimidating. We are dedicated towards self-improvement. Whether mental or physical, we are here to help overcome those obstacles. The main goal in Taekwondo practice is to achieve total mind and body control. At our school, we use discipline as the main tool to reach this goal. Without discipline, there is no Taekwondo. With our qualified instructors and a Master who has all the leadership credentials required, we are confident that we will help you reach your goal. Lowell Taekwondo is a USTU and WTF member. This allows proper certification upon receiving the 1st Dan black belt. In addition, certified students are eligible for the Olympics, if indeed this is their goal. Lowell Taekwondo is also the best place for kids. Bring your son or daughter for a free class, then judge for yourself.
-                        <br><br>
-                        Taekwondo was originally aimed towards self defense and the preservation of peace. Today, it has become much more than that, especially in the United States. Although some still seek it for self defense purposes, others are looking to become better fit, some enjoy competition and therefore, aim their sights at the Olympic Gold Medal. Taekwondo became an official sport of the Olympics in 2000. And, some just want to have fun and socialize while learning something new. Whatever the reason for wanting to train in Taekwondo, you will be surrounded by people who share the same enthusiasm as you. With our proven methods of instructing, you will learn the art of self defense in a safe, non-intimidating and fun atmosphere. We also provide a wide range of exciting benefits for students of all ages.
-                        <br><br>
-                        • Improved concentration for more efficient work and study habits
-                        <br>
-                        • Stress reduction and increased levels of relaxation for a longer, healthier sleep.
-                        <br>
-                        • The peace of mind that comes from knowing that you are able to protect yourself and your family.
-                        <br>                        
-                        • Increased confidence and self discipline to develop a positive attitude.
-                        <br>
-                        • Improving reflexes and coordination increases physical performance.
-                        <br>
-                        • Increased strength and stamina to make you feel great all day.
-                        <br>
-                        • Increased flexibility and weight control for better overall fitness.
-                        <br>
-                        • Great cardiovascular workout keeps you in good shape.
-                        <br><br>
-                        Fifth tab content
-                        <br>
-                        Sixth tab content
-                    </p>
-                </div>
-            </div>
-        </div>    
-    </div>
-    <!-- End InfoSection -->
-
-
-    <!-- Start Logo -->
-    <div data-aos="fade-lefts">
-        <svg class="mt-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
-            <path style="fill:orange;" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
-        </svg>
-        <div class="d-flex upper-logo justify-content-center">
-            <div class="mt-4">
-                <p class="font-roboto">LOWELL</p>
-            </div>
-        </div>
-    </div>
-    <div data-aos="fade-rights">
-        <div class="d-flex lower-logo justify-content-center">
-            <div class="mt-4">
-                <p class="font-roboto">TAEKWONDO</p>
-            </div>
-        </div>
-        <svg class="scnd-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
-            <path style="fill:rgb(34, 34, 34)" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
-        </svg>
-    </div>
-    <!-- End Logo -->
-
-    <!-- Start About Teach -->
-    <div data-aos="fade-left">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
-            <path style="fill:orange;" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
-        </svg>
-        <div class="container-fluid" style="margin-top:-20px; background-color:orange">
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-5 text-center bg-light">
-                        <p class="mt-5 text-warning font-Oswald" style="font-size: 30px;"><b>PROGRAMS</b></p>
-                        <p class="font-roboto mb-3 mt-4">
-                            At lowell Taekwando we will teach our students<br>to take a range of practices and techniques<br>to raise our students well-equipped for adulthood<br>and maintaining a happy healthy life.
-                        </p>
+                    <div class="col-lg-3">
+                        <div class="project__slider__item set-bg" data-setbg="img/category333.jpg">
+                            <a href="integration.html">
+                                <div class="project__slider__item__hover">
+                                    <span>المزيد</span>
+                                    <h5>الاندماج</h5>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-5">
-                        <img style="width: 100%;" src="img/taekGirl.jpg" alt="Woman Taekwondo">
+                    <div class="col-lg-3">
+                        <div class="project__slider__item set-bg" data-setbg="img/infographic.jpg">
+                            <a href="./info_graphic.html">
+                                <div class="project__slider__item__hover">
+                                    <span>المزيد</span>
+                                    <h5>انفوجرافيك</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project__slider__item set-bg" data-setbg="img/learn.jpg">
+                            <a href="./germany_lang_category.html">
+                                <div class="project__slider__item__hover">
+                                    <span>المزيد</span>
+                                    <h5>اللغة الألمانية</h5>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <svg class="scnd-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" xml:space="preserve">
-            <path style="fill:orange" class="main-path" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
-        </svg>
-    </div>
-    <!-- End About Teach -->
+    </section> -->
+    <!-- Project Section End -->
+   
 
-    <!-- Site footer -->
-    <footer class="site-footer mt-3">
+   <!-- Blog Section Begin -->
+    <section class="blog spad" dir="rtl" style="text-align:right;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h6>About</h6>
-                    <p class="text-justify">
-                        At Lowell Taekwondo It is our mission to make sure every child is successful, while developing at their own pace. We tailor our program to meet the individual needs of each child according to their personality, age and skill level. (We teach them .We work together with parents to achieve this goal, and have consistent, open communication with all of our families. We welcome and encourage you to drop by anytime to observe what we do and how we do it.
-                    </p>
-                </div>
-  
-                <div class="col-xs-6 col-md-3">
-                    <h6>Pages</h6>
-                    <ul class="footer-links">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="abstract.html">ABSTRACT</a></li>
-                        <li><a href="classes.html">CLASSES</a></li>
-                        <li><a href="chief.html">CHIEF MASTER</a></li>
-                    </ul>
-                </div>
-  
-                <div class="col-xs-6 col-md-3">
-                    <h6>Scial Media</h6>
-                    <ul class="footer-links">
-                        <li><a href="">SnapChat</a></li>
-                        <li><a href="https://www.instagram.com/lowelltaekwondo/">Instagram</a></li>
-                    </ul>
+                <div class="col-lg-12">
+                    <div class="blog__item__list">
+
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الأخبار العربية</h3>
+                            <h2>ربع سكان ألمانيا من أصول مهاجرة وأقل نسبة لهم في الأمن والقضاء!</h2>
+                            <img src="img/ed1.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>وصل عدد ذوي الأصول المهاجرة في ألمانيا أعلى مستوياته، لكن نسبة الزيادة تراجعت ولم تعد بالمستوى السابق. هذا وبقيت تركيا في صدارة الدول التي ينحدر منها المهاجرون يليها بولندا ثم روسيا.
+                                <br>
+                                <span  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <p>كشفت أحدث الإحصائيات أن واحدا من بين كل أربعة أفراد من سكان ألمانيا ينحدر من أصول مهاجرة. وأعلن مكتب الإحصاء الاتحادي في مقره بمدينة فيسبادن بغرب ألمانيا اليوم الثلاثاء (28 تموز/ يوليو 2020) أن عدد ذوي الأصول المهاجرة في البلاد بلغ العام الماضي 21,2 مليون فرد، أي ما يعادل 26 بالمائة من إجمالي عدد السكان.
+                                     </p>
+                                     <p>    
+                                    وبحسب البيانات، يمثل ذلك ارتفاعا بنسبة 1,2 بالمائة مقارنة بعام 2018، وهو أدنى ارتفاع يتم تسجيله منذ عام 2011. وذكر المكتب أن 65 بالمائة من ذوي الأصول المهاجرة في ألمانيا ينحدرون من دول أوروبية أخرى و22 بالمائة من آسيا بما في ذلك أفغانستان والعراق سوريا أيضا، وحوالي5  بالمائة من أفريقيا و 3بالمائة من استراليا والقارة الأمريكية (جنوب وشمال ووسط).
+
+أما الدول الرئيسية التي ينحدر منها ذوو الأصول المهاجرة في ألمانيا فهي: تركيا (13 بالمائة) وبولندا (11 بالمائة) وروسيا الاتحادية (7 بالمائة). وبحسب البيانات، فإن 52 بالمائة من المنحدرين من أصول مهاجرة (ما يعادل نحو 11 مليون فرد) يحملون الجنسية الألمانية.
+                                     </p>
+                                     <p>
+                                     وعلى مستوى الولايات، هناك تباين واضح في نسبة ذوي الأصول المهاجرة بين غرب وشرق ألمانيا، ففي بريمن التي جاءت في المقدمة بلغت نسبتهم 36,5 بالمائة ثم ولاية هيسن 34,4 بالمائة وفي هامبورغ 33,9 بالمائة. أما أقل نسبة فتم تسجيلها في الولايات الشرقية: في تورينغن لم تتجاوز 7,8 بالمائة وفي ساكسونيا آنهلت 8 بالمائة وفي مكلنبورغ فوربومرن 8,1 بالمائة.    
+                                     </p>
+                                     <h4 style="color:black; margin-bottom: 10px;">أكبر نسبة في قطاع التنظيفات والأقل في الشرطة</h4>
+                                     <p>    
+                                     وبذلك، فإن عدد الأجانب المقيمين في ألمانيا يصل إلى 1,10 مليون شخص، هاجر غالبيتهم إلى ألمانيا بأنفسهم (85 بالمائة). وبلغت نسبة من هاجروا بأنفسهم إلى ألمانيا وحصلوا على الجنسية الألمانية من إجمالي الألمان من أصول أجنبية 45 بالمائة، بينما يحمل أكثر من 50 بالمائة منهم الجنسية الألمانية منذ الولادة.
+
+                                    ووفقا لتعريف مكتب الإحصاء الاتحادي، فإن المنحدر من خلفية مهاجرة هو الذي لم يولد بجنسية ألمانية أو كان أحد أبويه على الأقل كذلك.</p>
+                                    <p> تجدر الإشارة إلى أن الإحصائيات تشمل من يعيشون في بيوتهم مع عائلاتهم لوحدهم، ولا تشمل من يعيشون في مساكن عامة مشتركة مثل نزل اللاجئين.
+
+                                    أما بالنسبة للمهن الرئيسية التي يمارسها ذوي الأصول المهاجرة، يأتي قطاع التنظيفات إذ بلغت نسبتهم 55 بالمائة ممن يعملون في هدا القطاع، يليه رعاية المسنين30  بالمائة وفي بيع المواد الغذائية28  بالمائة. في حين نسبة العاملين في القطاع الصحي والمهن الطبية فوصلت إلى 21 بالمائة، أما نسبة المعلمين ذوي الأصول المهاجرة فلم تتجاوز 11 بالمائة من العاملين في قطاع التعليم، أما النسبة الأقل فكانت للعاملين في مجال الأمن والشرطة والقضاء والعدالة 7 بالمائة فقط.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الأخبار العربية</h3>
+                            <h2>تهديد وضرب.. تقرير يكشف مأساة اللاجئين في مخيمات جزيرتين يونانيتين</h2>
+                            <img src="img/ed2.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>لم يتم تسليط الضوء بشكل كاف على أوضاع المهاجرين القاطنين في مخيمات جزر يونانية أخرى مثل كوس وليروس. منظمة حقوق اللاجئين في أوروبا "RRE" كشفت عن الأوضاع التي يواجهها اللاجئون هناك في تقرير بعنوان "الجزر المخفية".<br>
+                                <span  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample1">
+                                    <p>
+                                    الظروف الصعبة التي يعيشها اللاجئون في جزيرتي كوس وليروس اليونانيتين، والتي سلط تقرير منظمة حقوق اللاجئين في أوروبا "RRE" الضوء عليهما، أكدتها كذلك شهادات لاجئين تواصلوا مع موقع مهاجر نيوز، وكتبوا عن تجاربهم المعيشية هناك.
+
+أحد اللاجئين الذين تواصلوا مع موقع مهاجر نيوز عبر فيسبوك كتب مؤخرا إلينا قائلا إنه يعيش "في مخيم مغلق في اليونان. الوضع سيء للغاية". اللاجئ طالب وسائل الإعلام بالاهتمام بشكل أكبر بالظروف الصعبة التي يواجهها اللاجئون هناك وأوضح أن "كثيرا من الناس سيصيبهم الجنون بسبب سجنهم في هذه المخيمات المغلقة دون أي أفق واضح لمصيرهم". وتابع "لا توجد حقوق إنسان ولا حتى حقوق للسجناء هنا". وقال الرجل إنه متواجد في معسكر بيلي بجزيرة كوس "منذ أكثر من ثلاث سنوات".
+                                    </p>
+                                    <p> 
+                                        وزعمت الرسالة الموجهة لمهاجر نيوز وجود "اضطهاد غير ظاهر" في المخيم وأن الهواتف المزودة بكاميرات ممنوعة "حتى لا يتم الكشف عن طبيعة الظروف هناك".  وقال اللاجئ إن كاميرا هاتفه "كسرت قبل دخول المخيم". واتهم مسؤولي المخيم بكسر الهاتف، مؤكدا أنه لم يتسن لأي من سكان المخيم مقابلة أي من المحامين الذين وعدوا بتوفيرهم لهم، وقال إن المسؤولين أخذوا منهم أموالاً لتصريف أمورهم بشكل سري، حسب زعمه.
+
+قصة مماثلة يرويها متابع آخر لصفحة مهاجر نيوز عبر فيسبوك حيث قال إنه وصل جزيرة كوس في ديسمبر/ كانون الأول 2019، وقال اللاجئ الذي عرف عن نفسه بأنه كان يدرس الطب أنه أصيب بالمرض والحمى بعد أشهر من وصوله، مرجعا ذلك إلى أن الجو في المخيم كان باردا وماطرا، وكانت خيمتهم مليئة بالمياه، ولم يتم تزويدهم بطعام صحي.
+                                    </p>
+                                    <p> 
+                                    أفادت منظمة حقوق اللاجئين في أوروبا RRE أن المهاجرين الذين يعيشون خارج المخيمات في كوس وليروس اضطروا للانتقال إلى المخيمات الرسمية أثناء الإغلاق الذي سببته جائحة كورونا. وأفاد التقرير أن البيانات في أبريل/ نيسان من هذا العام تظهر وجود حوالي 1997 شخصا بمخيم اللاجئين في جزيرة ليروس في مساحة تتسع لـ 860 شخصا فقط. كما بين التقرير وجود 2594 شخصا داخل مخيم استقبال اللاجئين في كوس بالرغم من أن المخيم مهيأ لاستقبال 860 شخصا فقط.
+
+بداية يوليو/ تموز الجاري، اتصل طالب الطب الموجود في المخيم بموقع مهاجر نيوز مرة أخرى، وأرسل مقاطع فيديو لما يبدو أنه احتجاج داخل المخيم. حيث رفع أحد الرجال لافتة كتب عليها "أنا لست مجرما"، فيما بدا آخرون وهم يضربون بزجاجات المياه على الأرض احتجاجا. وكانت الصور الواردة تظهر هؤلاء المحتجين وهم حفاة.</p>
+<p> كلتا الرسالتين أظهرتا إحباط سكان المخيمات القاطنين في جزر ليروس وكوس واقتناعهم بأن معاناتهم باتت غير ظاهرة، حيث يتم التركيز على المخيمات الكبيرة في الجزر مثل ليسبوس مقابل غياب شبه تام للحديث عن معاناتهم في وسائل الاعلام.
+
+وأظهر تقرير منظمة RRE عن بقاء حالات الإغلاق في مخيمات اللاجئين في العديد من الجزر اليونانية بالرغم من تخفيف القيود في معظم أنحاء البلاد.
+
+</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الأخبار العالمية</h3>
+                            <h2>تواصل تدفق مئات المهاجرين من تركيا إلى اليونان</h2>
+                            <img src="img/ed3.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>يتواصل تدفق المهاجرين مجددا من تركيا إلى الجزر اليونانية وبالتالي إلى الأراضي الأوروبية، حيث ارتفع عدد هؤلاء في الأسابيع القليلة الماضية بشكل ملحوظ، ما يطرح سؤالا بشأن اتفاق اللاجئين بين تركيا والاتحاد الأوروبي.<br>
+                                <span  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <p>
+                                        منذ صباح الجمعة وحتى ظهر اليوم (السبت السابع من أيلول/ سبتمبر 2019) يتواصل تدفق المهاجرين القادمين من تركيا إلى شرق أيجه في الجزر اليونانية، حيث وصل 424 مهاجرا، حسب ما أوردت شبكة البث العام اليونانية  (ERT)نقلا عن الشرطة اليونانية.
+
+وخلال الأسابيع الماضية، ارتفع عدد المهاجرين الوافدين من تركيا على نحو ملحوظ. وفي آب/أغسطس انتقل 8103 مهاجرين من تركيا إلى جزر بحر أيجه اليونانية، بحسب بيانات المفوضية العليا لشؤون اللاجئين التابعة للأمم المتحدة. ويتواجد على هذه الجزر حاليا نحو 24 ألف مهاجر، يبحثون عن الحماية في أوروبا. ولتخفيف الأعباء عن مخيمات اللجوء المكتظة في الجزر، نقلت الحكومة اليونانية خلال الأسابيع الماضية آلاف المهاجرين إلى البر اليوناني، خاصة الأفراد الذين لديهم فرص جيدة للحصول على لجوء أو وضع حماية في اليونان. وقالت فيتس إنه من المهم الآن زيادة عدد حالات الترحيل من اليونان إلى تركيا على نحو واضح.
+
+وفي آذار/مارس عام 2016  وقع الاتحاد الأوروبي مع تركيا ما عرف باتفاق اللاجئين، وينص الاتفاق إعادة المهاجرين إلى تركيا، إذا تبين انتقالهم بشكل غير شرعي إلى الجزر اليونانية ولم يحصلوا على لجوء في اليونان. في المقابل، يستقبل الاتحاد الأوروبي من تركيا مقابل كل سوري معاد إليها سوريا آخر مقيما على نحو شرعي في تركيا.
+                                     </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الأخبار العالمية</h3>
+                            <h2>زيادة تدفق اللاجئين في اليونان تثير "قلق" ألمانيا</h2>
+                            <img src="img/ed3.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>تتابع الحكومة الألمانية بقلق بالغ تزايد وتيرة تدفق القوارب في بحر أيجة التي تحمل على متنها مهاجرين من تركيا إلى الجزر اليونانية. وقالت نائبة المتحدث باسم الحكومة الألمانية مارتينا فيتس اليوم الجمعة(السادس من أيلول/سبتمبر 2019) في برلين: "نتابع التطور بقلق"، مؤكدة في المقابل أن أعداد المهاجرين الذين يفدون حاليا إلى اليونان لا تزال أقل على نحو واضح من أعدادهم قبل توقيع اتفاق اللاجئين بين الاتحاد الأوروبي وتركيا في آذار/مارس عام 2016.<br>
+                                <span  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample1">
+                                    <p>
+                                    وينص الاتفاق بين الاتحاد الأوروبي وتركيا على إعادة المهاجرين إلى تركيا، إذا تبين انتقالهم بشكل غير شرعي إلى الجزر اليونانية ولم يحصلوا على لجوء في اليونان. وفي المقابل، يستقبل الاتحاد الأوروبي من تركيا مقابل كل سوري معاد إليها سوريا آخر مقيما على نحو شرعي في تركيا.
+
+وخلال الأسابيع الماضية، ارتفع عدد المهاجرين الوافدين من تركيا على نحو ملحوظ. وفي آب/أغسطس انتقل 8103 مهاجرين من تركيا إلى جزر بحر أيجة اليونانية، بحسب بيانات المفوضية العليا لشؤون اللاجئين التابعة للأمم المتحدة. ويتواجد على هذه الجزر حاليا نحو 24 ألف مهاجر، يبحثون عن الحماية في أوروبا.
+
+ولتخفيف الأعباء عن مخيمات اللجوء المكتظة في الجزر، نقلت الحكومة اليونانية خلال الأسابيع الماضية آلاف المهاجرين إلى البر اليوناني، خاصة الأفراد الذين لديهم فرص جيدة للحصول على لجوء أو وضع حماية في اليونان.
+                                    </p>
+                                    <p>
+                                        وقالت فيتس إنه من المهم الآن زيادة عدد حالات الترحيل من اليونان إلى تركيا على نحو واضح. وجاء في تقرير المفوضية الأوروبية الخاص بآخر تطورات ملف المهاجرين في اليونان أن بطء عمليات إعادة الوافدين إلى تركيا من قبل اليونان يثير القلق. كما أضاف أن فاعلية عمليات ترحيل اللاجئين وإعادتهم إلى تركيا بحاجة إلى تنسيق واسع النطاق بين الدوائر الحكومية المختلفة. كما ينبغي زيادة سرعة اتخاذ القرارات النهائية بشأن طلبات اللجوء التي يقدمها المهاجرون الوافدون إلى اليونان.
+
+وتتزامن هذه التطورات مع تهديد الرئيس التركي رجب طيب أردوغان بفتح الحدود أمام مئات الآلاف من اللاجئين السوريين ليتحركوا صوب دول الاتحاد الأوروبي في حال لم يحصل على مساعدات مالية كافية ودعم لإقامة منطقة آمنة في شمال سوريا.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">مقالات و تقارير</h3>
+                            <h2>مؤيد للنظام السوري مهدد بالترحيل من ألمانيا</h2>
+                            <img src="img/ed4.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>يواجه لاجئ سوري -يدافع بشراسة عن نظام الأسد ويعمل لدى برلماني يميني في ألمانيا- التهديد بالترحيل إلى سوريا بعد سحب حق اللجوء منه. فما هي الأسباب التي قادت إلى نزع صفة لاجئ منه؟<br>
+                                <span  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <p>التهديد بالترحيل إلى سوريا يلاحق شاباً سورياً يعمل لدى نائب في البرلمان الألماني، بعد سحب حق اللجوء منه بحسب ما نشره موقع صحيفة فيلت الألمانية.
+
+وكان السوري- من أصل أرمني- كيفورك ألماسيان، الذي يعمل في مكتب النائب المنتمي لحزب البديل لألمانيا اليميني الشعبوي في البوندستاغ، ماركوس فروهنماير، قد وصل إلى ولاية بادن فورتمبرغ الألمانية في عام 2015، قادما من سويسرا، حيث قدم طلب اللجوء وحصل عليه في شهر أيلول/ سبتمبر من العام التالي.</p>
+<p>
+    وبحسب الصحيفة، جاء قرار سحب صفة لاجئ عن ألماسيان، الذي يؤيد علناً وبشراسة نظام بشار الأسد، لأنه غير مهدد بالملاحقة السياسية في بلاده وبالتالي لا حاجة لحصوله على ما يسمى الحماية الفرعية لأن الوضع الأمني في دمشق مستقر كفاية لأجل عودته.
+</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">مقالات و تقارير</h3>
+                            <h2>السماح بالترحيل إلى سوريا... كيف يراه اللاجئون وما تقييم الخبراء؟</h2>
+                            <img src="img/ed5.jpg" height="450" alt="">
+                            <div class="blog__item__text">
+                                <p>مخاوف أثارها سماح ألمانيا بعمليات الترحيل إلى سوريا لفئة معينة من اللاجئين السوريين اعتبارا من مطلع 2021 في حال تصنيفهم تهديدا للأمن الألماني، بعضهم يخشى من توسيع نطاق الترحيل مستقبلا، فما هي حيثيات القرار؟<br>
+                                <span  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample1">
+                                    <p>
+                                    قرار الحكومة الألمانية القاضي بعدم تمديد قرار الحظر الشامل لترحيل السوريين الساري منذ عام 2012، وبالتالي طرح إمكانية ترحيل فئات معينة من السوريين إلى سوريا أثار الجدل في أوساط السوريين في ألمانيا ، لا سيما وأن القرار لم يعتمد آلية معينة في كيفية الترحيل ولم يوضح إن كان بالإمكان حاليا ترحيل أحد من اللاجئين من ألمانيا إلى سوريا في ظل قطيعة دبلوماسية كاملة بين ألمانيا وحكومة بشار الأسد.
+                                    </p>
+                                    <p> 
+                                    وكان وزير الدولة في وزارة الداخلية الألمانية الاتحادية، هانز يورغ انغيلكه قد صرح في مؤتمر صحفي قبل أيام أن "الحظر العام على الترحيل (إلى سوريا) ستنتهي مدته في 31 ديسمبر/ كانون الأول هذا العام". وأضاف أن "الذين يرتكبون جرائم أو يسعون وراء أهداف إرهابية لإلحاق أذى خطير بدولتنا وشعبنا، يجب أن يغادروا البلاد وسوف يغادرون". وأوضح إنغيلكه الذي ناب عن زيهوفر الموجود في العزل بعد تعرضه لفيروس كورونا المستجد، إن نحو 90 سوريا يشتبه بكونهم من المتطرفين، يتواجدون حاليا في ألمانيا.
+                                    </p>
+                                    <p>
+                                    وتقرر الحظر العام على الترحيل إلى سوريا لأول مرة في عام 2012، وتم تمديده عدة مرات منذ ذلك الحين. لكن لا يزال الذين يُنظر إليهم على أنهم معارضون لنظام الرئيس السوري بشار الأسد عرضة لخطر التعذيب والقتل حال عودتهم إلى هناك، وفقا لمنظمات حقوقية. وفي مناطق قليلة لا تزال تحت سيطرة الإسلاميين أو غيرهم من المسلحين، هناك أيضا مخاطر على أنصار الأسد.
+
+وتصاعدت الدعوات لتغيير في الموقف منذ توقيف سوري في تشرين الثاني/ نوفمبر بشبهة تنفيذ اعتداء دام بسكين في مدينة دريسدن. وقال المدعون إن الشاب البالغ من العمر 20 عاما، هاجم زوجين من المثليين فقتل أحدهما فيما أصيب الآخر بجروح خطيرة. وتبين للشرطة الألمانية أن طالب اللجوء السوري والقادم إلى ألمانيا 2015 كان مدانا بعدد من الجرائم ومعروف بقربه من الأوساط الإسلامية. وكان يقيم في ألمانيا بموجب وضع خاص يمنح للأشخاص الذين تُرفض طلباتهم للجوء، ولكن لا يمكن ترحيلهم.
+                                    </p>
+                                    <p>
+                                    وكان الحزب الاشتراكي الديمقراطي الشريك الآخر في الائتلاف قد فشل في مسعى تمديد الحماية المطبقة منذ 2012 لستة أشهر. وقال الحزب إن الوضع المحفوف بالمخاطر في سوريا لا يسمح بالدفاع عن عمليات الترحيل إليها.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الاندماج</h3>
+                            <h2>ألمانيا- بعد خمسة أعوام.. أين وصل اندماج اللاجئين في سوق العمل؟</h2>
+                            <img src="img/int1.jpg" height="350" alt="">
+                            <div class="blog__item__text">
+                                <p>خمسة أعوام مرّت على جملة المستشارة الألمانية الشهيرة "نستطيع إنجاز ذلك"، والتي قالتها إثر دخول مئات آلاف اللاجئين. فأين وصل اندماجهم داخل المجتمع وسوق العمل بعد كل هذه الأعوام؟<br>
+                                <span  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <p>
+                                       قبل خمس سنوات وفي ذروة أزمة اللجوء في أوروبا قالت المستشار الألمانية أنغيلا ميركل جملتها الشهيرة "نستطيع إنجاز ذلك"، في إشارة منها إلى قدرة ألمانيا على استيعاب مئات آلاف اللاجئين الذين تدفقوا على ألمانيا عام 2015 عندما فتحت حدودها أمامهم. غير أن هذه الجملة جلبت لها سيلاً من الانتقادات الداخلية والأوروبية لميركل ولسياسة "الأبواب المفتوحة" التي انتهجتها في التعامل مع أزمة اللجوء. الآن وبعد مرور خمس سنوات أين وصلت عملية إدماج هولاء اللاجئين في المجتمع وفي سوق العمل؟
+                                     </p>
+                                     <p>
+                                         حصيلة خمسة أعوام مما حققته ألمانيا في مجال إدماج اللاجئين في سوق العمل، تبدو متابينة النتائج. خلال هذه الأعوام الماضية عرفت عملية إدماج اللاجئين في سوق العمل تحديات عديدة، ولكن في كثير من الأحيان كانت تسير أيضاً على نحو جيد. حسب ما نقله عن موقع مجلة "فوكوس" الألمانية عن دانييل ترتسينباخ، العضو في مجلس إدارة وكالة العمل الاتحادية، الذي قال إن حوالي نصف اللاجئين القادرين على العمل والمتواجدين في ألمانيا، أصبح لديهم عمل ثابت اليوم. من ناحية أخرى وحسب وكالة العمل الألمانية، فإن ألمانيا سجلت نتائج أفضل في دمج اللاجئين في سوق العمل مقارنة بالدول الأخرى. لكن تبقى هناك اختلافات واضحة بين اللاجئين كما يقول ترتسينباخ، فالنساء أقل اندماجاً من الرجال في سوق العمل. أحد أسباب ذلك يعود إلى الدور التقليدي للمرأة في البلدان الأصلية، إذ تتولى مسؤولية رعاية الأطفال والأسرة. لهذا فإنها أقل التحلقا بدورات الاندماج واللغة في ألمانيا.
+                                     </p>
+                                     <h4 style="color:black; margin-bottom: 10px;">مفتاح الاندماج</h4>
+                                     <p>استقبلت ألمانيا أكثر من 800 ألف لاجئ خلال عام 2015 فقط، الأمر الذي يعد سابقة في تاريخ البلاد. اللغة الألمانية هي أهم مؤهل وعامل حاسم في تحديد مسار اللاجئين في سوق العمل، ولأن غالبيتهم لا يتوفرون على هذا المؤهل عند وصولهم، شكل ذلك تحديا كبيراً لهم. في دراسة حديثة، صرح هربرت بروكر أحد خبراء سوق العمل لموقع فوكوس أن "هناك أسباب عديدة تجعل من إندماج اللاجئين في سوق العمل الألماني، في التعليم وفي المجالات الاجتماعية الأخرى أصعب من إندماج المهاجرين الذين قدموا إلى ألمانيا بطرق أخرى، ومنها على سبيل المثال هجرة العمالة أو لم شمل الأسرة".</p>
+
+                                     <p>العمل يعد من أهم العوامل المساعدة على اندماج الأجانب في ألمانيا، وهو ما أدرك أهميتة اللاجئ السوري محمد علي في وقت مبكر. فرغم تجاوزه الأربعين من عمره، انخرط في العمل منذ وصوله ألمانيا عام 2015 لأنه يرى أن العمل هو "مفتاح الاندماج وكسب احترام الآخر“. ويقول علي لمهاجر نيوز إن دخوله سوق العمل الألماني لم يكن سهلاً، لأنه مارس مهنته الحالة في البداية دون تكوين واضطر لهذا السببب إلى العمل تحت التدريب مدة سنتة أشهر بأجر قليل، "لأنني كنت بحاجة ماسة للعمل ورفضت الحصول على المساعدات الاجتماعية منذ وصولي ولازلت أرفض ذلك إلى هذه اللحظة". ويضيف أن "العمل ساعده كثيراً على تقوية لغته الألمانية وتكوين شبكة علاقات مع مجتمعات وثقافات جديدة وتعلم عادات وطبائع الشعوب الأخرى المتواجدة في ألمانيا، كما يحسن ذلك من صورة اللاجئ داخل المجتمع من خلال دفعه للضرائب مثل باقي المواطنين. لكن رغم اندماجه في سوق العمل، إلا أنه يفضل العمل في مجال آخر، وهو مجال الإعلام. يقول علي إن تحقيق شروط ولوج هذا المجال في ألمانيا، صعبة ومن أهمها تحقيق مستوى لغة أعلى من الذي يمتلكه حالياً. ولكنه بذات الوقت لم يتخل عن طموحه المهني ويعمل مع مواقع وصحف عربية منذ ثلاثة وثلاثين عاماً.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">الاندماج</h3>
+                            <h2>ألمانيا ـ غالبية اللاجئين تشعر بالترحيب والكثير منهم غير راض</h2>
+                            <img src="img/int3.jpg" height="350" alt="">
+                            <div class="blog__item__text">
+                                <p>تحسنت أوضاع اللاجئين في ألمانيا، إذ تقدمت معرفتهم باللغة الألمانية الضرورية للاندماج، وشاع بينهم إحساس بأنهم محل ترحيب في هذا البلد، لكن هناك مخاوف وتحديات أخرى لا تزال تواجههم وتشعرهم بعدم الرضا.<br>
+                                <span  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" 
+                                class="text-danger" style="cursor: pointer; text-decoration: underline;"><strong>المزيد</strong></span>
+                                </p>
+                                <div class="collapse" id="collapseExample1">
+                                    <p>
+                                    يشعر ثلاثة أرباع اللاجئين في ألمانيا أنه مرّحب بهم، كما أكد 44 في المئة منهم لديهم معرفة جيدة أو جيدة للغاية باللغة الألمانية، وهي نسبة أعلى من تلك التي سُجلت عام 2017 (35 بالمئة)، وكذلك من نسبة عام 2016 (16 بالمئة).
+
+وجاءت هذه النتائج في دراسة حديثة أجراها المركز البحثي التابع للهيئة الاتحادية للهجرة وشؤون اللاجئين بألمانيا والمعهد الألماني لأبحاث سوق العمل والتوظيف (أي إيه بي)، وتم نشرها اليوم الثلاثاء (18 فبراير/شباط 2020). وقد شملت عينة الدراسة 7950 لاجئاً جاءوا إلى ألمانيا في الفترة بين 2013 و2016 وقدموا طلبات لجوء بها.
+                                    </p>
+                                    <p>
+                                    ورغم الإحساس بالترحيب في البلاد، إلا أن اللاجئين يملكون مخاوف من وضعهم الاقتتصادي. وفي هذا السياق، صرّحت مديرة مشروع أبحاث الهجرة واللجوء بالهيئة، نينا روتر: "هذه النتائج تشير إلى أنه على الرغم من أوجه التحسن التي تم إحرازها في العمل والدخل، فإن جزءاً كبيراً من اللاجئين ليس راضياً عما تم الوصول إليه، ولكنه يسعى لمواصلة المضي إلى الأمام".
+
+وأوضحت روتر أن الوضعين الصحي والأسري وحالة الإقامة القانونية، وكذلك وضعي المعيشة والسكن وحجم الاتصالات الاجتماعية مع الألمان تعد جميعاً عوامل مهمة بالنسبة للرضا عن الحياة لدى اللاجئين، لافتةً إلى أن الرضا عن وضع التوظيف والدخل يختلف وفقاً لنوعية الوظيفة لدى كل شخص.
+
+وتبقى المعرفة الجيدة باللغة الألمانية شرطاً أساسياً للاندماج المهني والمجتمعي. وفي هذا الإطار، بيّنت روتر أن لغة اللاجئين تحسنت عموماً، إذ كشفت نتائج الدراسة عن تراجع نسبة اللاجئين الذين ليست لديهم معرفة باللغة الألمانية إلى خمسة بالمئة.
+
+وكانت دراسة أخرى أجراها المعهد الألماني لأبحاث سوق العمل والتوظيف ونشرها في شهر شباط/فبراير الجاري قد كشفت أن نحو نصف اللاجئين الذين جاءوا إلى ألمانيا منذ عام 2013 يباشرون عملاً نظامياً، وذلك بعد مرور فترة خمسة أعوام على إقامتهم في ألمانيا.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">انفوجرافيك</h3><br>
+                            <center>
+                                <img src="img/image13.jpg" alt="">
+                            </center>
+                        </div><br><hr>
+                        <div class="col-lg-12">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">انفوجرافيك</h3><br>
+                            <center>
+                                <img src="img/image6.jpg" alt="">
+                            </center>
+                        </div>
+                        <br>
+                        <div class="blog__item">
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">اللغة الألمانية</h3><br>
+                            <h4 style="color:black; margin-bottom: 10px;">
+                                حقائق عن اللغة الألمانية        
+                            </h4>
+                            <p>قواعد اللغة الألمانية، الأبجدية الألمانية، الكلمات الألمانية، لفظ اللغة الألمانية – ليس تعلم الألمانية بالأمر الصعب، كما يعتقد كثيرون. وأنت لست الوحيد في تعلمها: 15,4 مليون إنسان في مختلف أنحاء العالم يتعلمون الألمانية كلغة أجنبية، كما أن 100 مليون يتكلمونها كلغة أم. بهذا تكون الألمانية اللغة الأم الأكثر تداولا في أوروبا. بمقدور اللغة الألمانية أن تصف أمورا، لا يمكن وصفها بالكلمات في لغات أخرى، وفيها حرف فريد من نوعه، وقواعد ثابتة معتمدة، إضافة إلى احتوائها على ثلاثة أجناس، بدلا من جنسين. هنا تجد الكثير من الحقائق الممتعة والطريفة عن اللغة الألمانية.</p>
+                            
+                            <h2>ست حقائق عن اللغة الألمانية</h2>
+                            <img src="img/germany-language-speaking.jpg" height="350" alt=""> -->
+                            <!-- <div class="blog__item__text">
+                                <p>نستعرض لكم "صرعات" اللغة الألمانية – من الكلمات الطويلة المركبة إلى حرف غريب فريد من نوعه..<br>
+                                <span><a href="FactsGermanlanguage.html" class="btn btn-danger text-light">المزيد</a></span>
+                                </p>
+                                <div class="collapse" id="collapseExample3">
+                                    <h3 style="color:black; margin-bottom: 10px;">1- الألمانية ليست لغة ألمانيا وحدها</h3>
+                                    <p>                                                        
+                                        اوتعزو المنظمة أسباب الظاهرة إلى تركيبة معقدة ما بين أزمات طويلة الأمد أو مزمنة تتسبب بحركة كبيرة للنازحين واللاجئين، مثل الأزمة السورية أو الحرب في أفغانستان، أو أزمة جنوب السودان، إلى جانب أزمات حديثة العهد مثل أزمة فنزويلا وميانمار. كما تشير المنظمة الدولية إلى أن التغييرات المناخية ساهمت هي الأخرى في تنامي ظاهرة اللاجئين والنازحين ودفعتها لتسجل أرقاماً قياسية، حيث "تساهم التحولات المناخية الحادة في تفاقم الأزمات القائمة، كما هو الحال في أفريقيا، حيث سجلت الأرصاد الجوية رقماً قياسياً في ظاهرة الجفاف في جنوب القارة السمراء ورقماً قياسياً آخر في ظاهرة الفيضانات في شرق القارة، ما يدفع الناس إلى ترك أوطانهم والفرار إلى مناطق أخرى". من جانبه، قال مدير المنظمة في ألمانيا، بيتر رونزتروت: "لقد كان عقداً مليئاً بالتطرف على مستوى العالم، والأزمات فيه معقدة. تنامي ظاهرة القومية، بالإضافة إلى بناء الجدران والحواجز، لم تكن الاستجابة الصحيحة لهذه التحديات". وتابع المسؤول الأممي أن المشكلة يمكن حلها بالتعاون الدولي فقط وبتضامن المجتمع المدني مع اللاجئين. وأشارت المنظمة الدولية بشكل خاص إلى الحرب الأهلية في سوريا التي اندلعت في عام 2011، إلى جانب أزمتي ليبيا والصومال. كما تفاقمت أزمة جنوب السودان في عام 2013 إلى جانب الحرب في اليمن. بعد ذلك أضيف إليها في عام 2017 اضطرابات فنزويلا وتهجير مسلمي الروهينغا من ميانمار.
+                                    </p>
+                                    <iframe width="750" height="422" src="https://www.youtube.com/embed/kRDl6iCr7Yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <hr>
+                            <h3 class="bg-dark text-center text-light" style="width: 190px;" id="as">اللغة الألمانية</h3><br>
+                            <h2>الألمانية في العالم</h2>
+                            <img src="img/Heritage_Nelepcu_Strauss.jpg" height="350" alt="">
+                            <div class="blog__item__text">
+                                <p>في 42 بلدا من بلدان العالم يتحدث أناس اللغة الألمانية كلغة أم. ولكن كيف حدث هذا؟ معكم نسير على خطا اللغة الألمانية.<br>
+                                <span><a href="germany_in_world.html" class="btn btn-danger text-light">المزيد</a></span>
+                                </p>
+                                <div class="collapse" id="collapseExample3">
+                                    <h3 style="color:black; margin-bottom: 10px;">1- الألمانية ليست لغة ألمانيا وحدها</h3>
+                                    <p>                                                        
+                                        اوتعزو المنظمة أسباب الظاهرة إلى تركيبة معقدة ما بين أزمات طويلة الأمد أو مزمنة تتسبب بحركة كبيرة للنازحين واللاجئين، مثل الأزمة السورية أو الحرب في أفغانستان، أو أزمة جنوب السودان، إلى جانب أزمات حديثة العهد مثل أزمة فنزويلا وميانمار. كما تشير المنظمة الدولية إلى أن التغييرات المناخية ساهمت هي الأخرى في تنامي ظاهرة اللاجئين والنازحين ودفعتها لتسجل أرقاماً قياسية، حيث "تساهم التحولات المناخية الحادة في تفاقم الأزمات القائمة، كما هو الحال في أفريقيا، حيث سجلت الأرصاد الجوية رقماً قياسياً في ظاهرة الجفاف في جنوب القارة السمراء ورقماً قياسياً آخر في ظاهرة الفيضانات في شرق القارة، ما يدفع الناس إلى ترك أوطانهم والفرار إلى مناطق أخرى". من جانبه، قال مدير المنظمة في ألمانيا، بيتر رونزتروت: "لقد كان عقداً مليئاً بالتطرف على مستوى العالم، والأزمات فيه معقدة. تنامي ظاهرة القومية، بالإضافة إلى بناء الجدران والحواجز، لم تكن الاستجابة الصحيحة لهذه التحديات". وتابع المسؤول الأممي أن المشكلة يمكن حلها بالتعاون الدولي فقط وبتضامن المجتمع المدني مع اللاجئين. وأشارت المنظمة الدولية بشكل خاص إلى الحرب الأهلية في سوريا التي اندلعت في عام 2011، إلى جانب أزمتي ليبيا والصومال. كما تفاقمت أزمة جنوب السودان في عام 2013 إلى جانب الحرب في اليمن. بعد ذلك أضيف إليها في عام 2017 اضطرابات فنزويلا وتهجير مسلمي الروهينغا من ميانمار.
+                                    </p>
+                                    <iframe width="750" height="422" src="https://www.youtube.com/embed/kRDl6iCr7Yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <hr>
         </div>
+    </section>
+
+    <!-- Services Section Begin -->
+    <section class="" style="margin-top: 0px;">
         <div class="container">
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Our specialization</span>
+                        <h2>What we do</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-                    <a href="#">LAWELL</a>.
-                    </p>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-1.png" alt="">
+                        <h4>Interior Design</h4>
+                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                        attention.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-2.png" alt="">
+                        <h4>Office Design</h4>
+                        <p>Our commitment to exceptional quality has never wavered. To day ranks as one of the most
+                        highly-regarded construction.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-3.png" alt="">
+                        <h4>Home Design</h4>
+                        <p>Interdisciplinary architectural studio with cultural, residential and commercial projects
+                        built worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-4.png" alt="">
+                        <h4>Design drawing</h4>
+                        <p>Creating architectural and creative solutions to help people realize their vision and make
+                        them a reality.</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="pb-5">
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <div class="counter__item">
+                            <div class="counter__item__number">
+                                <h2 class="">526K</h2>
+                            </div>
+                            <div class="counter__item__text">
+                                <h3><strong>عدد اللاجئين في ألمانيا</strong></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="counter__item">
+                            <div class="counter__item__number">
+                                <h2 class="">80M</h2>
+                            </div>
+                            <div class="counter__item__text">
+                                <h3><strong>عدد اللاجئين في العالم</strong></h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-  </footer>
+    </section>
+    <!-- Services Section End -->
+     <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__newslatter">
+                            <form action="#">
+                                <input type="text" placeholder="">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__text">
+                            <h2>قم بترك رسالة لنا</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        
+                        <h4 class="text-light ml-4">للتواصل معنا</h4>
+                        <br>
+                        <div class="footer__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+            
+            
+    </div>
+</footer>
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
-<script>
-    $(document).ready(function(){
-        $("#button").on('click',function() {
-            $('html, body').animate({
-            'scrollTop' : $("#info").position().top
-            });
-        });
-    });
-    AOS.init();
-</script>
+
 </html>
