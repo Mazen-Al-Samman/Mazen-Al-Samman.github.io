@@ -10,9 +10,12 @@
     <title>Staging | Template</title>
 
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -22,9 +25,17 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style type="text/css">
-        p{
+        p {
             font-size: 20px;
             text-align: justify;
+            font-family: 'Amiri';
+        }
+        h2 {
+            font-size: 30px !important;
+            font-family: 'Cairo', sans-serif !important;
+        }
+        h4 {
+            font-family: 'Cairo', sans-serif !important;
         }
         .header__logo a strong{
         
@@ -57,7 +68,7 @@
     <header class="header" style="background-color: rgba(0,0,0,0.9); height: 100px; position: relative;" dir="rtl">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4" style="top: -24px;">
+                <div class="col-lg-3" style="top: -24px;">
                     <div class="header__logo" style="display: inline-block;">
                         <ul style="display: inline-block; list-style: none; color: white;  border-left: 2px solid white; padding-left:4px;: ">
                             <li style="font-size: 15px;"><img src="img/jordanFlag.png" style="margin-bottom: 5px;" width="20" height="20"> AR</li>
@@ -67,11 +78,11 @@
                         <h3 style="display: inline-block; position: relative; top: -20px;">
                             
                              <img src="img/ger.jpg" width="60" height="50">
-                            <a href="#" class="text-light"><strong>لاجئين - Flüchtlinge</strong></a>
+                            <a href="#" class="text-light"><strong>لاجئون - Flüchtlinge</strong></a>
                         </h3>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-9">
                     <nav class="header__menu mobile-menu">
                          <ul>
                             <li class="active"><a href="./index.html" style="color:white !important;">الصفحة الرئيسية</a></li>
@@ -170,6 +181,41 @@
         </div>
     </section>
     <!-- Blog Section End -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__newslatter">
+                            <form action="#">
+                                <input type="text" placeholder="">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__text">
+                            <h2>قم بترك رسالة لنا</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer__about">
+
+                            <h4 class="text-light ml-4">للتواصل معنا</h4>
+                            <br>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 <!-- Js Plugins -->
