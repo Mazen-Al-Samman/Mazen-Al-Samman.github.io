@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+.font-cairo {
+    font-family: 'Cairo';
+}
+.font-poppins-400 {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.font-lobster {
+    font-family: 'Lobster';
+}
+.main-img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    z-index: 100;
+    opacity: 0.6;
+}
+.main-img-cont {
+    background-image: url("../img/main-img.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.study-text {
+    font-size: 60px;
+}
+.text {
+    margin-top: 200px;
+}
+.break-line {
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    width: 80%;
+}
+.line {
+    line-height: 50px;
+    font-size: 16px;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.effect:hover {
+    transform: scale(1.06);
+    cursor: auto;
+}
+ul {
+    list-style: none;
+}
+footer {
+    padding: 2rem 4rem;
+    background: #1a1a1a;
+    color: #ccc;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer_about {
+    /*   background:red; */
+}
+h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footer_about p {
+    font-size: 0.85rem;
+}
+
+.footer_main {
+    /*   background:orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_main ul {
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+.footer_right {
+    /*   background:blue; */
+}
+
+.footer_right .footer_links {
+    /*   background:gold; */
+    padding: 1.2rem;
+    display: flex;
+    gap: 10px;
+}
+.footer_right .footer_links i {
+    width: 40px;
+    height: 40px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.copyright {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        grid-template-column: 1fr;
+    }
+}
