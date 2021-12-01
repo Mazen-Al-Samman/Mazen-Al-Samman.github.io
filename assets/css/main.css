@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+    font-family: 'Cairo';
+}
+.font-cairo {
+    font-family: 'Cairo' !important;
+}
+.hide {
+    display: none !important;
+}
+.mt-70 {
+    margin-top: 50px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+.mt-200 {
+    margin-top: 200px !important;
+}
