@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Harmattan&family=Reem+Kufi&display=swap');
 
 body {
     font-family: 'Cairo';
 }
 .font-cairo {
     font-family: 'Cairo' !important;
+}
+.font-harmattan {
+    font-family: 'Harmattan' !important;
+}
+.font-kufi {
+    font-family: 'Reem Kufi';
+    letter-spacing: 2px;
 }
 .hide {
     display: none !important;
@@ -23,4 +30,79 @@ body {
 }
 .mt-200 {
     margin-top: 200px !important;
+}
+.clear {
+    clear: both;
+    margin-bottom: 75px;
+}
+.font-grey {
+    color: grey;
+}
+.color-gold {
+    color: #d8b24f;;
+}
+.bg-grey {
+    background-color: #E8E9EB;
+}
+.ln-5 {
+    line-height: 5px;
+}
+.font-25 {
+    font-size: 25px;
+}
+.placeholder {
+    color: grey;
+    font-size: 15px;
+}
+.text-gold {
+    color: #d8b24f;
+}
+.bg-gold {
+    background-color: #d8b24f;
+}
+.font-40 {
+    font-size: 40px;
+}
+.stats-item {
+    margin-right: 3px;
+}
+.stats-item:first-child {
+    border-top-right-radius: 175px !important;
+}
+.stats-item:last-child {
+    border-bottom-left-radius: 175px !important;
+}
+.font-15 {
+    font-size: 15px;
+}
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
 }
