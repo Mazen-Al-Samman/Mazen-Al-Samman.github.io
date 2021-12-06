@@ -39,7 +39,7 @@ body {
     color: grey;
 }
 .color-gold {
-    color: #d8b24f;;
+    color: #d8b24f !important;
 }
 .bg-grey {
     background-color: #E8E9EB;
@@ -105,4 +105,13 @@ body {
 
 .slick-current {
   opacity: 1;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.active {
+    color: green !important;
+}
+.pr-0 {
+    padding-right: 0px;
 }
