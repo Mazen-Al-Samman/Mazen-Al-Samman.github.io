@@ -115,3 +115,9 @@ body {
 .pr-0 {
     padding-right: 0px;
 }
+.number {
+    color: white;
+    background-color: #d8b24f;
+    font-size: 25px;
+    text-align: center;
+}
