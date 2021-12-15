@@ -23,7 +23,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url('assets/images/back.svg'); background-size: cover;">
 
     <header class="header fixed-top" dir="rtl">
         <!-- logo -->
@@ -53,10 +53,10 @@
                       <a class="nav-link fw-bold color-gold" aria-current="page" href="#">تسجيـل</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fw-bold color-gold" aria-current="page" href="login.html">تسجيـل دخول</a>
+                      <a class="nav-link active fw-bold color-gold" aria-current="page" href="login.html">تسجيـل دخول</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active fw-bold color-gold" aria-current="page" href="contact.html">اتصـل بنـــا</a>
+                      <a class="nav-link fw-bold color-gold" aria-current="page" href="contact.html">اتصـل بنـــا</a>
                     </li>
                   </ul>
                 </div>
@@ -65,60 +65,45 @@
           </div>
     </header>
 
-    <div id="main-content" class="page-header theme-bg-dark py-5 text-center position-relative mt-70">
-        <div class="theme-bg-shapes-right"></div>
-        <div class="theme-bg-shapes-left"></div>
-        <div class="container">
-            <div class="main-text">
-                <h1 class="font-cairo text-light">اتصـل بنـــا</h1>
-            </div>
-        </div>
-    </div>
+    <section class="d-flex align-items-center" style="height: 650px;">
+        <div id="login-form" class="container mt-70 text-center" >
+            <h1 class="font-cairo">تـسـجــيل الـدخــول <span class="text-primary">كــ</span></h1>
 
-    <section class="container text-center mt-3" dir="rtl">
-        <p class="font-25">
-            يمكنكم التواصل مع فريق الإدارة الخاص بـ
-            <span class="text-primary fw-bold">تَنــســـيق</span>
-        </p>
+            <div class="row d-flex justify-content-center" dir="">
+                <div class="col-lg-6">
+                    <form class="form-group mt-5">
 
-        <p class="font-25">
-            <span class="text-primary fw-bold">من خــلال :</span>
-        </p>
+                        <div class="btn-group" role="group">
+                            <input type="radio" name="type" value="1" class="btn-check" id="company">
+                            <label class="btn btn-outline-danger" for="company">شـركــة</label>
+                            
+                           <span style="width: 30px; height: 30px; border-radius: 20px;" class="p-1 mt-1 bg-gold text-light ms-4 me-4">أو</span>
 
-        <div class="text-center py-2">
-            <ul class="social-list list-unstyled pb-4 mb-0 pr-0">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-            </ul>
-        </div>
-        <hr>
-        <div>
-            <p class="font-25 mt-5">
-                أو يمكنكم تقديم ملاحظاتكم عبر النموذج أدناه
-            </p>
+                            <input type="radio" checked name="type" value="2" class="btn-check" id="charity">
+                            <label class="btn btn-outline-danger" for="charity">جـمـعـية</label>
+                        </div>
+                        <br>
 
-            <div class="row d-flex justify-content-center mt-3 mb-5">
-                <div class="col-md-6">
-                    <form class="form-group">
-                        <input placeholder="اسم المستخدم" type="text" class="form-control border border-primary">
-                        <textarea class="form-control mt-3 border border-primary" style="height: 150px;" placeholder="نص الملاحظــة" rows="3"></textarea>
-                        <input type="submit" class="btn btn-primary mt-3" value="إرسال الملاحظــة">
+                        <label for="user-name" class="mt-5">البريد الإلكتروني</label>
+                        <input id="user-name" type="text" class="form-control mt-3 border border-1 border-success" placeholder="admin@example.com">
+
+                        <label for="password" class="mt-4">كـلـمة الســر</label>
+                        <input id="password" type="password" class="form-control mb-2 mt-3 border border-1 border-success" placeholder="Password">
+                        
+                        <div class="mt-3">
+                            <label for="remember" class="me-2 color-gold fw-bold">تـذكـرنـي</label>
+                            <input class="form-check-input" type="checkbox" id="remember" value="1">
+                        </div>
+
+                        <input type="submit" class="btn btn-light text-primary mt-4 login-btn" value="تسـجـيـل الـدخـول">
                     </form>
+                    <div class="mt-3">
+                        <a class="text-grey" href="">نـسـيت كـلـمــة المـرور</a>
+                        <a class="text-grey me-3" href="">إنـشــاء حـســاب جـديد</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-        <div class="theme-bg-shapes-right"></div>
-        <div class="theme-bg-shapes-left"></div>
-        <div class="container">
-            <h3 class="mb-2 text-white mb-3 font-cairo">إبـدأ الآن مع تَنــســـيق</h3>
-            <div class="pt-3 text-center">
-                <a class="btn btn-light" href="" dir="rtl">انضم الآن <i
-                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-            </div>
         </div>
     </section>
 

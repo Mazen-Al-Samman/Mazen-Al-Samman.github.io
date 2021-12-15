@@ -121,3 +121,53 @@ body {
     font-size: 25px;
     text-align: center;
 }
+
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+#values{
+    
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    padding: 30px;
+}
+.values .box {
+    padding: 30px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+  }
+  .values .box img {
+    padding: 30px 50px;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  .values .box h3 {
+    font-size: 17px;
+    color: #5d6778;
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-family: 'Cairo';
+  }
+  .values .box:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  .values .box:hover img {
+    transform: scale(1);
+  }
+  
+  /*--------------------------------------------------------------
+  Vesion
+  --------------------------------------------------------------*/
+  .vesion img{
+    width: 40%;
+}
+login-btn:hover, login-btn:focus {
+    outline: none !important;
+}
+.text-grey {
+    color: grey;
+}
